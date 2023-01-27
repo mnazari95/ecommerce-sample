@@ -1,7 +1,12 @@
 .titleLabel {
+  grid-column: 2 / 6;
+  grid-row: 1 / 2;
+
   font-size: x-large;
   font-weight: bold;
-  padding: .5em;
+
+  padding: 1em 8em;
+  background-color: blueviolet;
 }
 .container {
   display: flex;
