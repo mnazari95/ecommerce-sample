@@ -5,16 +5,16 @@
   font-size: x-large;
   font-weight: bold;
 
-  padding: 1em 8em;
   background-color: blueviolet;
 }
 .container {
   display: flex;
   flex-direction: row;
-  overflow-x: scroll;
+  flex-wrap: nowrap;
+  overflow-x: hidden;
 }
 
 .featureItem {
   justify-self: start;
-  padding: 1em;
+  padding: 0 0.2em;
 }
