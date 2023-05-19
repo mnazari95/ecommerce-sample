@@ -2,5 +2,38 @@
     display: inline;
     grid-column: 1 / 1;
     grid-row: 2 / 3;
-    background-color: aqua;
+    background-color: orange;
+    padding: 10px;
+}
+.removeCheckBoxBtn {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+.removeCheckBoxBtn:hover {
+    background-color: red;
+}
+
+.fruit {
+    display: inline;
+}
+
+.filterBtn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 2px 2px;
+    cursor: pointer;
 }
